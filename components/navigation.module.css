@@ -1,6 +1,3 @@
-.button {
-  background-color: #ccc;
-}
-.nav button {
-  display: block;
+.nav button + button {
+  margin-top: 8px;
 }
