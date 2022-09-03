@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NavButton from './nav-button';
+import NavButton from './navigation-button';
 import {
   Twitter,
   Home,

@@ -1,0 +1,10 @@
+.navButton {
+  background-color: var(--c-primary);
+
+  color: var(--c-text-color);
+  padding: 20px;
+  border-radius: 99px;
+}
+svg {
+  color: red;
+}
