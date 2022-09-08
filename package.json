@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run storybook-static && next build",
     "start": "next start",
     "lint": "next lint",
     "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\"",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o public/ui"
   },
   "keywords": [],
   "author": "",
