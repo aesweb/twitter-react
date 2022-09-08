@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run storybook-static && next build",
+    "build": "npm run build-storybook && next build",
     "start": "next start",
     "lint": "next lint",
     "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\"",
