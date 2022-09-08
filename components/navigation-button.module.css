@@ -5,9 +5,11 @@
   border-radius: 99px;
   display: flex;
   align-items: center;
+  transition: var(--fade);
 }
 
 .navButton:hover {
+  color: var(--c-theme);
   background-color: var(--c-theme-20);
 }
 .navButton svg {
