@@ -1,17 +1,8 @@
 .navButton {
   position: relative;
-  color: var(--c-text-color);
   padding: 10px;
-  border-radius: 99px;
-  display: flex;
-  align-items: center;
-  transition: var(--fade);
 }
 
-.navButton:hover {
-  color: var(--c-theme);
-  background-color: var(--c-theme-20);
-}
 .navButton svg {
   color: var(--c-text-color);
   font-size: 26px;
