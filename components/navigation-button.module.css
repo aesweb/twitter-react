@@ -14,7 +14,7 @@
 }
 
 .navButtonSelected {
-  background-color: var(--c-theme);
+  background-color: var(--c-theme-10);
 }
 
 .notify {
