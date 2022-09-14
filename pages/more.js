@@ -3,14 +3,14 @@ import React from 'react';
 import Layout from '../components/layout';
 import useWindowSize from '../hooks/useWindowSize';
 
-function HomePage() {
+function MorePage() {
   const size = useWindowSize();
   return (
     <Layout>
       {JSON.stringify(size)} <br />
-      Homepage
+      More
     </Layout>
   );
 }
 
-export default HomePage;
+export default MorePage;
