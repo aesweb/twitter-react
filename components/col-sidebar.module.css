@@ -9,6 +9,7 @@
 @media screen and (min-width: 1270px) {
   .sidebar {
     align-items: flex-start;
+    padding-right: 46px;
   }
 
   .tweet {
