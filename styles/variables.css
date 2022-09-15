@@ -1,11 +1,31 @@
 :root {
-  --c-primary: #000;
+  --c-primary: #fff;
+  --c-theme: rgba(29, 161, 242, 1);
+  --c-theme-10: rgba(231, 233, 234, 0.1);
+  --c-border-color: rgb(230, 236, 240);
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+  --c-text-color: #0f1419;
+
+  --fade: 120ms;
+}
+
+.dim:root {
+  --c-primary: rgba(21, 32, 43);
   --c-theme: rgba(29, 161, 242, 1);
   --c-theme-10: rgba(231, 233, 234, 0.1);
   --c-border-color: #2f3336;
   --c-gray: #6e767d;
   --c-dark-gray: #202327;
   --c-text-color: #fff;
+}
 
-  --fade: 120ms;
+.dark:root {
+  --c-primary: rgba(0, 0, 0);
+  --c-theme: rgba(29, 161, 242, 1);
+  --c-theme-10: rgba(231, 233, 234, 0.1);
+  --c-border-color: #2f3336;
+  --c-gray: #6e767d;
+  --c-dark-gray: #202327;
+  --c-text-color: #fff;
 }

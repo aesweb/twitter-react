@@ -1,6 +1,6 @@
 .navButton {
   position: relative;
-  padding: 10px;
+  padding: 12px;
 }
 
 .navButton svg {
@@ -13,8 +13,8 @@
   margin-right: 15px;
 }
 
-.navButtonSelected {
-  background-color: var(--c-theme-10);
+.navButton:first-child svg {
+  color: var(--c-theme);
 }
 
 .notify {
