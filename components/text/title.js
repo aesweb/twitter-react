@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './text-title.module.css';
+import styles from './title.module.css';
 import cn from 'classnames';
 
 function TextTitle({ bold = true, children }) {

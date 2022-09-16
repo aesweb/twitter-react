@@ -1,10 +1,10 @@
 import React from 'react';
 import cn from 'classnames';
-import Navigation from './navigation';
-import ThemeButton from './theme-button';
-import ProfileBox from './profile-box';
+import Navigation from '../navigation/navigation';
+import ThemeButton from '../theme-button/index';
+import ProfileBox from '../profile-box/profile';
 
-import styles from './col-sidebar.module.css';
+import styles from './sidebar.module.css';
 
 function Sidebar({ flat }) {
   return (
